@@ -1,0 +1,186 @@
+/* === GENERAL STYLING === */
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* === CONTAINER === */
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+}
+
+/* === TITLE === */
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* === WELCOME MESSAGE === */
+#welcome-msg {
+  color: white;
+  font-size: 4vw;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 57vh;
+}
+
+/* === CLOCK === */
+#clockDiv {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18vw;
+  font-family: monospace;
+  cursor: pointer;
+  text-wrap: nowrap;
+}
+
+/* === TOGGLE BUTTON === */
+#toggle-format {
+  margin: 10px;
+  padding: 6px 12px;
+}
+
+/* === INPUT FIELD === */
+.ghost-input {
+  border-bottom: 1px solid white !important;
+  display: block;
+  font-weight: 300;
+  width: 100%;
+  font-size: 1.5em;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  color: #fcfcfc;
+  background: black;
+  padding: 10px 15px;
+  margin: 30px 0;
+}
+
+/* === BUTTONS === */
+.btn,
+input[type="submit"] {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  font-family: monospace;
+  letter-spacing: 3px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-white {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff !important;
+}
+
+.btn-white:hover {
+  background: #fff;
+  color: #1f1f1f !important;
+}
+
+/* === ERROR ANIMATION === */
+.error-shake {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-1px, 0, 0); }
+  20%, 80% { transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+  40%, 60% { transform: translate3d(4px, 0, 0); }
+}
+
+/* === LOWER LEFT LINK === */
+#lowerleft {
+  text-decoration: none;
+  font-size: 1em;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* === CENTERING === */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* === LANGUAGE BUTTON CONTAINER (suggested) === */
+.lang {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* ============================
+   === RESPONSIVE MEDIA ===
+=============================*/
+
+/* Small Devices (phones) */
+@media (max-width: 600px) {
+  #clockDiv {
+    font-size: 20vw;
+  }
+
+  #welcome-msg {
+    font-size: 6vw;
+    margin-top: 40vh;
+  }
+
+  .ghost-input {
+    font-size: 1.2em;
+  }
+
+  .btn,
+  input[type="submit"] {
+    font-size: 0.8em;
+    padding: 10px 14px;
+  }
+}
+
+/* Medium Devices (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  #clockDiv {
+    font-size: 15vw;
+  }
+
+  #welcome-msg {
+    font-size: 5vw;
+  }
+
+  .ghost-input {
+    font-size: 1.3em;
+  }
+}
+
+/* Large Devices (desktops) */
+@media (min-width: 1025px) {
+  #clockDiv {
+    font-size: 12vw;
+  }
+
+  #welcome-msg {
+    font-size: 4vw;
+  }
+}
