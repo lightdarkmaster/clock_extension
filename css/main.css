@@ -1,6 +1,7 @@
 /* === GENERAL STYLING === */
 body {
   background-color: black;
+  /* background-image:url("/img/galaxy.png"); */
   color: white;
   font-family: monospace;
   margin: 0;
