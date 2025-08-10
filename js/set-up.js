@@ -71,5 +71,6 @@ function checkFirstTime(){
       }
 }
 
+//for the confirm language
 var element = document.getElementById("confirmLang");
 element.addEventListener("click", clickConfirmLang);
