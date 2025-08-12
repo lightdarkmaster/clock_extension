@@ -59,7 +59,7 @@ function clickConfirmLang() {
         location.href = "index.html";
     }
 }
-
+//check first time and store the username and language..
 function checkFirstTime(){
     if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem("username") === null) {
