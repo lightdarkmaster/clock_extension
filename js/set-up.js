@@ -5,7 +5,6 @@ checkFirstTime()
 inputSelectedLang.disabled = true;
 
 
-// NAME SELECTION SCREEN
 function clickConfirm() {
     elementIsClicked = true;
     var input_name = document.getElementById("username"); 
@@ -24,7 +23,6 @@ var element = document.getElementById("confirm");
 element.addEventListener("click", clickConfirm);
 
 
-// LANG SELECTION SCREEN
 var langBtns = document.getElementsByClassName("lang");
 for (var i = 0; i < langBtns.length; i++) {
     langBtns[i].addEventListener('click', function(event) {
@@ -59,7 +57,7 @@ function clickConfirmLang() {
         location.href = "index.html";
     }
 }
-//check first time and store the username and language..
+
 function checkFirstTime(){
     if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem("username") === null) {
@@ -71,6 +69,5 @@ function checkFirstTime(){
       }
 }
 
-//for the confirm language
 var element = document.getElementById("confirmLang");
 element.addEventListener("click", clickConfirmLang);
