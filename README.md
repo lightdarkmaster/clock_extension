@@ -9,7 +9,7 @@ Chrome extention that adds a new custom "new-tab" window with a 24 hours clock a
 ## Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/migtarx/new-tab-clock.git
+   git clone https://github.com/lightdarkmaster/clock_extension
    ``` 
    O just download the extention from releases section.
 2. Unzip and save the folder in a place where it cannot be deleted (if you delete it, the extention will disappear from your chrome browser).
