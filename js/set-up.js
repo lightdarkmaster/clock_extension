@@ -69,7 +69,7 @@ function checkFirstTime(){
       }
 }
 
-
+//Not Necessary
  function checTime(){
         if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem("username") === null) {
