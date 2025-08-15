@@ -68,28 +68,6 @@ function checkFirstTime(){
         document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
       }
 }
- 
-
-
-    // Function to create a "data record"
-function createRecord(id, name, age) {
-    return {
-        id: id,
-        name: name,
-        age: age,
-        createdAt: new Date().toISOString()
-    };
-}
-
-// Example usage:
-let record1 = createRecord(1, "John Doe", 25);
-let record2 = createRecord(2, "Jane Smith", 30);
-
-console.log(record1);
-console.log(record2);
-
-
-
 
 var element = document.getElementById("confirmLang");
 element.addEventListener("click", clickConfirmLang);
