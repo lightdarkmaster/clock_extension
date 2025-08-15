@@ -2,7 +2,7 @@
 
 # New Tab Extention
 
-Chrome extention that adds a new custom "new-tab" window with a 24 hours clock and configurable welcome message depending on day time. 
+Chrome extention that adds a new custom "new-tab" window with a 24/12 hours clock and configurable welcome message depending on day time. 
 
 ![chrome-ext-samp](https://github.com/lightdarkmaster/clock_extension/blob/main/img/image.png)
 
