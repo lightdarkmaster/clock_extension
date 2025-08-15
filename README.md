@@ -28,7 +28,8 @@ First time of usage the extention will redirect you to a walkthrough menu where 
 You wil be also able to reconfigurate the previous configured parameters by clicking on the bottom left text.
 
 ## TODO
-* Add configurable option for showing seconds in the clock.
+* Add background image in the clock extension.
+* Add Calendar
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
