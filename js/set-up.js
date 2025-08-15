@@ -69,5 +69,17 @@ function checkFirstTime(){
       }
 }
 
+
+ function checTime(){
+        if (typeof(Storage) !== "undefined") {
+        if (localStorage.getItem("username") === null) {
+            document.title = "New Tab - First set up";
+            document.getElementById("htitle").textContent = "First set up"
+        }
+      } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+      }
+ }
+
 var element = document.getElementById("confirmLang");
 element.addEventListener("click", clickConfirmLang);
