@@ -4,7 +4,7 @@
 
 Chrome extention that adds a new custom "new-tab" window with a 24 hours clock and configurable welcome message depending on day time. 
 
-![chrome-ext-samp](https://user-images.githubusercontent.com/63917673/134425091-2fb8fc56-8ef8-4680-9db0-25b681131be1.PNG)
+![chrome-ext-samp](https://github.com/lightdarkmaster/clock_extension/blob/main/img/image.png)
 
 ## Installation
 1. Clone the repo
