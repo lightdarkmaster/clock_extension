@@ -8,7 +8,6 @@ const clockEl = document.getElementById("clockDiv");
 const msg = document.getElementById("welcome-msg");
 const toggleButton = document.getElementById("clockDiv");
 
-// Set default format if not set
 if (!localStorage.getItem("timeFormat")) {
   localStorage.setItem("timeFormat", "24h");
 }
