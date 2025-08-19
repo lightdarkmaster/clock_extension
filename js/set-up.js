@@ -43,6 +43,7 @@ for (var i = 0; i < langBtns.length; i++) {
     })
 }
 
+//click to confirm language..
 function clickConfirmLang() {
     elementIsClicked = true;
     var inputLang = document.getElementById("selectedLang");
