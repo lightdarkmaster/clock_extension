@@ -60,12 +60,6 @@ function clickConfirmLang() {
 }
 
 
-//miscelaaneous function
-function createRecord(fileSize){
-    let recordName = "";
-    let fileSize = get(fileSize);
-}
-
 function checkFirstTime(){
     if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem("username") === null) {
