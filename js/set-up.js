@@ -22,7 +22,7 @@ function clickConfirm() {
 var element = document.getElementById("confirm");
 element.addEventListener("click", clickConfirm);
 
-
+//Language Buttons
 var langBtns = document.getElementsByClassName("lang");
 for (var i = 0; i < langBtns.length; i++) {
     langBtns[i].addEventListener('click', function(event) {
