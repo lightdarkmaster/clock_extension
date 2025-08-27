@@ -59,15 +59,7 @@ function clickConfirmLang() {
     }
 }
 
-
-const getData=(num1, num2)=>{
-    return sum = num1 + num2;
-    const age = 12;
-}
-
-getData(1,4);
-
-
+//check first time/ first setup
 function checkFirstTime(){
     if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem("username") === null) {
