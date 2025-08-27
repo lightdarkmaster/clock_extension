@@ -59,7 +59,7 @@ function clickConfirmLang() {
     }
 }
 
-
+//check first time/ first setup
 function checkFirstTime(){
     if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem("username") === null) {
