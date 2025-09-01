@@ -1,7 +1,10 @@
 /* === GENERAL STYLING === */
 body {
-  background-color: black;
-  /* background-image:url("/img/galaxy.png"); */
+  /* background-color: black; */
+  background-image: url("/img/galaxy2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
   font-family: monospace;
   margin: 0;
@@ -12,10 +15,6 @@ body {
 }
 
 #clock_container {
-  /* background-image: url("/img/galaxy.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; */
   border: 2px red;
   height:100%;
   width:100%;
