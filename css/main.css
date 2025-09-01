@@ -1,10 +1,10 @@
 /* === GENERAL STYLING === */
 body {
-  /* background-color: black; */
-  background-image: url("/img/galaxy2.jpg");
+  background-color: black;
+  /* background-image: url("/img/galaxy2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center; */
   color: white;
   font-family: monospace;
   margin: 0;
