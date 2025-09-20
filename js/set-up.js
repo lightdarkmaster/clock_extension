@@ -22,7 +22,7 @@ function clickConfirm() {
 var element = document.getElementById("confirm");
 element.addEventListener("click", clickConfirm);
 
-
+//Language Buttons
 var langBtns = document.getElementsByClassName("lang");
 for (var i = 0; i < langBtns.length; i++) {
     langBtns[i].addEventListener('click', function(event) {
@@ -43,6 +43,7 @@ for (var i = 0; i < langBtns.length; i++) {
     })
 }
 
+//click to confirm language..
 function clickConfirmLang() {
     elementIsClicked = true;
     var inputLang = document.getElementById("selectedLang");
@@ -58,6 +59,7 @@ function clickConfirmLang() {
     }
 }
 
+//check first time/ first setup
 function checkFirstTime(){
     if (typeof(Storage) !== "undefined") {
         if (localStorage.getItem("username") === null) {

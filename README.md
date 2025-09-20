@@ -30,6 +30,7 @@ You wil be also able to reconfigurate the previous configured parameters by clic
 ## TODO
 * Add background image in the clock extension.
 * Add Calendar
+* Add background customization.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
