@@ -27,12 +27,12 @@ var langBtns = document.getElementsByClassName("lang");
 for (var i = 0; i < langBtns.length; i++) {
     langBtns[i].addEventListener('click', function(event) {
         switch (event.target.innerHTML) {
-            case "ES":
-                inputSelectedLang.setAttribute('value', "Has selecionado Español");
+            case "TL":
+                inputSelectedLang.setAttribute('value', "Pinili mo ang Tagalog");
                 selectedLang = 0;
                 break;
-            case "EU":
-                inputSelectedLang.setAttribute('value', "Euskara hautatu duzu");
+            case "WR":
+                inputSelectedLang.setAttribute('value', "Ginpili mo an Waray-waray");
                 selectedLang = 1;
                 break;
             default:

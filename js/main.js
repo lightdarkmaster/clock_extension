@@ -4,11 +4,17 @@
  */
 
 // Define the languages and their corresponding greetings
+// const langData = [
+//   ['Nueva configuración', 'Buenos días', 'Buenas tardes', 'Buenas noches'],
+//   ['Konfigurazio berria', 'Egun on', 'Arratsalde on', 'Gau on'],
+//   ['New Configuration', 'Good morning', 'Good afternoon', 'Good evening']
+// ];
+
 const langData = [
-  ['Nueva configuración', 'Buenos días', 'Buenas tardes', 'Buenas noches'],
-  ['Konfigurazio berria', 'Egun on', 'Arratsalde on', 'Gau on'],
+  ['Bagong Pagsasaayos', 'Magandang Umaga', 'Magandang Hapon', 'Magandang Gabi'],
+  ['Bag-o na Konpigurasyon', 'Maupay nga Aga', 'Maupay nga Kulop', 'Maupay nga Gabi'],
   ['New Configuration', 'Good morning', 'Good afternoon', 'Good evening']
-];
+]
 
 // Get the DOM elements
 const clockEl = document.getElementById("clockDiv");
