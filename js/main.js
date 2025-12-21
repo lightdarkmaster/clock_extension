@@ -83,3 +83,14 @@ function checkFirstTime() {
 //interval
 setInterval(getClockTime, 1000);
 
+//added code..
+
+function getRecord(){
+  const x_axis = MouseEvent();
+  const  y_axis = MouseEvent().getClockTime();
+  const addTwoAxis = x_axis + y_axis;
+  
+  console.log(addTwoAxis);
+
+}
+
