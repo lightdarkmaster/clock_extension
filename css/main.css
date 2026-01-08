@@ -79,6 +79,17 @@ h1 {
   padding: 10px 15px;
   margin: 30px 0;
 }
+/* #countdown {
+  position: relative;
+  width: 200px;
+  height: auto;
+  padding: 2px;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8em;
+  color: #fff;
+  font-weight: bold;
+} */
 
 /* === BUTTONS === */
 .btn,
@@ -206,4 +217,15 @@ input[type="submit"] {
   #welcome-msg {
     font-size: 4vw;
   }
+}
+
+/* Extra Large Devices (large desktops) */
+@media (min-width: 1200px) {
+  #clockDiv {
+    font-size: 10vw;
+  }
+  #welcome-msg {
+    font-size: 3vw;
+  } 
+
 }
