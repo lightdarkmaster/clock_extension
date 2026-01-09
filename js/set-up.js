@@ -71,5 +71,15 @@ function checkFirstTime(){
       }
 }
 
+//Added things..
+/**
+ * Retrieves the username stored in local storage and logs it to the console.
+ * @returns {undefined}
+ */
+function createLead(){
+    const test = localStorage.getItem("username");
+    console.log(test);
+}
+
 var element = document.getElementById("confirmLang");
 element.addEventListener("click", clickConfirmLang);
