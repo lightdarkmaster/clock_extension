@@ -84,6 +84,7 @@ function checkFirstTime() {
 setInterval(getClockTime, 1000);
 
 //added code..
+// This function is intended to demonstrate the use of MouseEvent and getClockTime together.
 
 function getRecord(){
   const x_axis = MouseEvent();
